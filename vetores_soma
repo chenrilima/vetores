@@ -14,15 +14,15 @@ Inicio
        para i de 0 ate n-1 faca
             escreva("Digite um numero: ")
             leia(vet[i])
-         fimpara
+        fimpara
 
        escreval
       escreval("Os Valores são: ")
 
          para i de 0 ate n-1 faca
             se (vet[i]) >0 entao
-          valores <- (vet[i])
-          escreval("Valores:", valores)
+              valores <- (vet[i])
+              escreval("Valores:", valores)
             fimse
           fimpara
           
