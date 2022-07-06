@@ -1,5 +1,5 @@
 Algoritmo "altura"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o] 
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o] 
 // Professor   : Antonio Carlos Nicolodi 
 
 
@@ -13,7 +13,7 @@ Var
       vetA: vetor[0..4] de real
 
 Inicio
-       escreva("Quantas pessoas ser„o digitadas? ")
+       escreva("Quantas pessoas ser√£o digitadas? ")
        leia(n)
        
        para i de 0 ate n-1 faca
@@ -43,7 +43,8 @@ Inicio
              fimse
          fimpara
          
-       porcenT <- i / 100 * 1000
+       porcenT <- i / 100 * 1000 
+       ## // 4 / 100 * 100
        escreval("Pessoas com menos de 16 anos: ", porcenT:2)
 
 
