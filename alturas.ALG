@@ -38,15 +38,13 @@ Inicio
          
          
          para i de 0 ate n-1 faca
-         
              se (vetI[i]) < 16  entao
              escreval("Nomes: ", (vetN[i]))
-             porcenT <- i * 0.40
              fimse
          fimpara
          
-       
-       escreval("Pessoas com menos de 16 anos: ", (porcenT / 100) * 100)
+       porcenT <- i / 100 * 1000
+       escreval("Pessoas com menos de 16 anos: ", porcenT:2)
 
 
 Fimalgoritmo
